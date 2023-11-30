@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.SortedMap;
+
 
 public class Bingo {
 
@@ -83,10 +83,11 @@ public class Bingo {
                     if (cantarBingo == 10){ intentosBingo = i;
 
                     }
-                    //System.out.println("Numero cantando " + bomboBingo);
 
-                    //System.out.println("CantarLinea " + cantarLinea);
-                    //System.out.println("CantarBingo " + cantarBingo);
+                    //codigo utilizado para ver el recorido.
+                     System.out.println("Numero cantando " + bomboBingo);
+                     System.out.println("CantarLinea " + cantarLinea);
+                     System.out.println("CantarBingo " + cantarBingo);
                 }
 
 
