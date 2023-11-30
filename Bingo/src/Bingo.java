@@ -8,7 +8,7 @@ public class Bingo {
         int cantarLinea = 0;
 
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Ingresa la cantidad de numeros en la que vas a acertar el bingo");
+        System.out.println("Ingresa la cantidad de numeros en la que vas a acertar el BINGO");
         int aciertos = scanner.nextInt();
 
         int[] carton = new int[10];
@@ -84,10 +84,12 @@ public class Bingo {
 
                     }
 
-                    //codigo utilizado para ver el recorido.
+                    /*codigo utilizado para ver el recorido.
                      System.out.println("Numero cantando " + bomboBingo);
                      System.out.println("CantarLinea " + cantarLinea);
                      System.out.println("CantarBingo " + cantarBingo);
+
+                     */
                 }
 
 
@@ -102,10 +104,8 @@ public class Bingo {
         System.out.println();
 
 
-
-        System.out.println("BINGO salio en : "+ intentosBingo+ " intentos");
-
         System.out.println("LINEA en : "+ intentosLinea+ " intentos");
+        System.out.println("BINGO en : "+ intentosBingo+ " intentos");
         if (intentosBingo == aciertos){
             System.out.println("Enhorambuena su apuesta ha sido premiada :"+ apuesta*10 +" puntos");
 
