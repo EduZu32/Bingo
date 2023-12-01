@@ -107,7 +107,7 @@ public class Bingo {
         System.out.println("LINEA en : "+ intentosLinea+ " intentos");
         System.out.println("BINGO en : "+ intentosBingo+ " intentos");
         if (intentosBingo == aciertos){
-            System.out.println("Enhorambuena su apuesta ha sido premiada :"+ apuesta*10 +" puntos");
+            System.out.println("Enhorambuena su apuesta ha sido premiada :"+ apuesta *10 +" puntos");
 
         }else {
             System.out.println("La apuesta no ha sido premiada, sigue intentandolo");
